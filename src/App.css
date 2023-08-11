@@ -1,0 +1,51 @@
+/* Add this to App.css */
+
+.dashboard-container {
+  display: flex;
+}
+
+
+
+.sidebar {
+  width: 20%;
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+  position: fixed;
+  top: 30px;
+  left: 0;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.header button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.content {
+  margin-left: 20%;
+  margin-top: 60px; /* Adjust to avoid overlapping with the header */
+  padding: 20px;
+}
